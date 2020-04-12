@@ -1189,7 +1189,7 @@ public class LinesRetriever
             filaments.removeAll(toRemove);
         }
 
-        if (filaments.size() < 5) {
+        if (filaments.size() < 1) {
             sheet.getStub().decideOnRemoval(
                     sheet.getId() + LINE_SEPARATOR + "Too few staff filaments: " + filaments.size()
                             + LINE_SEPARATOR + "This sheet does not seem to contain staff lines.",
